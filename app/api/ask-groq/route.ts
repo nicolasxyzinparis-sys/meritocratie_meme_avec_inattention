@@ -11,7 +11,7 @@ export async function POST(req: Request) {
 
     if (!userInput || !userInput.trim()) {
       return Response.json(
-        { error: 'Please enter some text.' },
+        { error: 'Veuillez saisir du texte.' },
         { status: 400 }
       );
     }
@@ -30,7 +30,7 @@ export async function POST(req: Request) {
     console.error('[v0] Groq API error:', error?.message || error);
     return Response.json(
       {
-        error: error?.message || 'An error occurred while processing your request.',
+        error: error?.message || 'Une erreur est survenue lors du traitement de votre requete.',
       },
       { status: 500 }
     );
