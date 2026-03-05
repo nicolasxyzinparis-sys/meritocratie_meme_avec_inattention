@@ -22,9 +22,9 @@ const _dancingScript = Dancing_Script({
 
 export const metadata: Metadata = {
   title:
-    "More Meritocracy in Party Politics: Implementing Selection Protocols Robust Against Biases",
+    "Plus de méritocratie dans la politique partisane\u00A0: des protocoles de sélection robustes contre les biais comportementaux",
   description:
-    "A journalistic exploration of how behavioral economics and protocol design can improve political party selection processes.",
+    "Une exploration journalistique de la manière dont l\u2019économie comportementale et la conception de protocoles peuvent améliorer les processus de sélection au sein des partis politiques.",
 };
 
 export default function RootLayout({
@@ -33,7 +33,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="fr">
       <body className="font-sans antialiased">{children}</body>
     </html>
   );

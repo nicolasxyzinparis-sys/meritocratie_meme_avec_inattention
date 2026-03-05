@@ -19,7 +19,7 @@ function renderMarkdown(text: string) {
 
 export function InteractiveBlock({
   text,
-  placeholder = 'Type here...',
+  placeholder = 'Saisissez ici...',
   isDreamy = false,
   systemPrompt,
   temperature = 0.1,
@@ -96,7 +96,7 @@ export function InteractiveBlock({
             disabled={isLoading || !input.trim()}
             className="rounded-xl bg-primary px-5 py-2.5 font-sans text-sm font-medium text-primary-foreground hover:bg-primary/90 disabled:opacity-40 transition-all shrink-0"
           >
-            {isLoading ? 'Thinking...' : 'Ask'}
+            {isLoading ? 'Réflexion...' : 'Demander'}
           </button>
         </div>
       </form>
