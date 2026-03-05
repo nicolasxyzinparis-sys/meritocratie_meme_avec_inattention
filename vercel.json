@@ -1,0 +1,3 @@
+{
+  "installCommand": "node -e \"const fs=require('fs');const s=fs.statSync('node_modules',{throwIfNoEntry:false});if(s&&!s.isDirectory()){fs.unlinkSync('node_modules');console.log('Removed node_modules file')}\" && pnpm install"
+}
