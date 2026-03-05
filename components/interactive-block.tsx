@@ -96,7 +96,7 @@ export function InteractiveBlock({
             disabled={isLoading || !input.trim()}
             className="rounded-xl bg-primary px-5 py-2.5 font-sans text-sm font-medium text-primary-foreground hover:bg-primary/90 disabled:opacity-40 transition-all shrink-0"
           >
-            {isLoading ? 'Reflexion...' : 'Demander'}
+            {isLoading ? 'Réflexion...' : 'Demander'}
           </button>
         </div>
       </form>

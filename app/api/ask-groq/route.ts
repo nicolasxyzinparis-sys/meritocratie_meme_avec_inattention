@@ -30,7 +30,7 @@ export async function POST(req: Request) {
     console.error('[v0] Groq API error:', error?.message || error);
     return Response.json(
       {
-        error: error?.message || 'Une erreur est survenue lors du traitement de votre requete.',
+        error: error?.message || 'Une erreur est survenue lors du traitement de votre requête.',
       },
       { status: 500 }
     );
