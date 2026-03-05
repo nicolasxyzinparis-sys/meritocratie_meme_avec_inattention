@@ -22,7 +22,7 @@ const _dancingScript = Dancing_Script({
 
 export const metadata: Metadata = {
   title:
-    "Plus de méritocratie dans la politique partisane\u00A0: des protocoles de sélection robustes contre les biais comportementaux",
+    "Pas des cons mais pas d'attention\u00A0: se protéger contre les biais comportementaux au sein des partis politiques",
   description:
     "Une exploration journalistique de la manière dont l\u2019économie comportementale et la conception de protocoles peuvent améliorer les processus de sélection au sein des partis politiques.",
 };
