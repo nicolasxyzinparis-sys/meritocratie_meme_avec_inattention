@@ -41,7 +41,7 @@ export default function Home() {
                   lineHeight: '1.15',
                 }}
               >
-                {'Plus de méritocratie dans la politique partisane\u00A0:'}
+                {'Pas des cons mais pas d\u2019attention\u00A0:'}
               </span>
               <span
                 className="block text-sm sm:text-base lg:text-lg italic font-light mt-2"
@@ -51,7 +51,7 @@ export default function Home() {
                     '1px 1px 0 #8a6830, 2px 2px 0 #5a4018, 3px 3px 8px rgba(0,0,0,0.6)',
                 }}
               >
-                {'Construire une robustesse contre les biais comportementaux, au sein d\u2019un parti politique'}
+                {'se défendre des biais comportementaux au sein des partis politiques'}
               </span>
             </h1>
           </div>
